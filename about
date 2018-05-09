@@ -1,0 +1,25 @@
+<!Doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title> RandomEats </title>
+  <meta name="author" content="Matthew Osorio">
+  <meta name="description" content="RandomEats website, A food delivery service tailored for the indecisive">
+  <meta property="og:description" content="A food delivery service tailored for the indecisive">
+  <meta property="og:title" content="RandomEats">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">
+      <a href="index.html"> RandomEats </a>
+    </h1>
+    <nav>
+      <a class="navi" href="index.html"> Home </a>
+      <a class="navi" href="#"> Place Order </a>
+      <a class="navi" href="#"> About Us </a>
+      <a class="navi" href="#"> Contact Us </a>
+    </nav>
+  </header>
+  </body>

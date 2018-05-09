@@ -6,23 +6,38 @@ html {
 .logo {
   font-size: 2.3em
 }
-.navi {
+/*.navi {
   font-family: 'Playfair Display', serif;
   font-size: 1.6em;
   line-height: 3;
   padding: 1.5em;
   margin: 1.5em;
-}
+}*/
 body {
-  background-color: rgb(255, 26, 26);
-  border: 0;
-}
-main {
   background: url("REatsBike.jpg");
+  background-repeat: no-repeat;
+}
+header {
+  background-color: red;
+  width: 100%;
+  text-align: center;
 }
 .options {
   background-color: white;
-  margin: 2em;
   padding: 1.5em;
-  width:
+  
+  text-align: center;
+}
+@media only screen and (min-width:300px) {
+  .navi {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em;
+    line-height: 3;
+    padding: 1.5em;
+    margin: 1.5em;
+}
+@media only screen and (min-width: 600px) {
+  header {
+    background-color: red;
+  }
 }
